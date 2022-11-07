@@ -1,0 +1,108 @@
+<mjml>
+    <mj-head>
+        <mj-title>Canva | Email</mj-title>
+
+        <mj-attributes>
+            /* MJML ELEMENT STYLES */
+            <mj-section background-color="#fff" padding="0px"></mj-section>
+            <mj-column width="85%" padding="0px" ></mj-column>
+            <mj-group width="85%"></mj-group>
+            <mj-text padding="0px" color="#0E1318"></mj-text>
+            <mj-button background-color="#7D2AE8" padding="9px 14px"></mj-button>
+
+            /* MJML CLASS STYLES */
+            <mj-class name="nav-button" background-color="#fff" color="gray" font-size="14px" border="1px solid #333" href="#" target="_blank" align="right" />
+            <mj-class name="parag-font" line-height="160%" font-size="14px" />
+            <mj-class name="" />
+            <mj-class name="" />
+            <mj-class name="" />
+        </mj-attributes>
+
+        <mj-style>
+            @media screen and (max-width: 479.98px) {
+                .mobile-two-columns {
+                    width: 50% !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#EDF0F2">
+        /* NAVBAR */
+        <mj-section background-color="#EDF0F2" padding="20px 0px 0px 0px"></mj-section>
+
+        <mj-section>
+            <mj-group>
+                <mj-column width="50%" css-class="mobile-two-columns" padding="30px 0px 0px 0px">
+                    <mj-image src="./images/logo.png" alt="Canva" title="Canva" width="100px" height="35px" align="left" border="0" />
+                </mj-column>
+
+                <mj-column width="50%" css-class="mobile-two-columns" padding="30px 0px 0px 0px">
+                    <mj-button mj-class="nav-button">
+                        Design with Canva
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* HEADER */
+        <mj-section>
+           <mj-column padding="30px 0px">
+                <mj-text>
+                    <h1 style="font-size: 32px; line-height: 130%;">This week's #CanvaDesignChallenge: Video with Patterns</h1>
+                </mj-text>
+           </mj-column> 
+        </mj-section>
+
+        /* GIF */
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image src="./images/kaleidoscope.gif" alt="GIF" title="GIF" width="600px" height="450px" border="0" />
+            </mj-column>
+        </mj-section>
+
+        /* PARAGRAPH */
+        <mj-section>
+            <mj-column padding="36px 0px 26px 0px">
+                <mj-text mj-class="parag-font">
+                    	With Canva, creating Videos is as easy as making any other design. Not sure where to start? Give this week’s 
+                        <span style="font-weight: bold;">#CanvaDesignChallenge</span> a go. The theme is Patterns so create a short Video 
+                        (10 seconds or less) using our wide selection of kaleidoscopic visuals and hypnotic prints. Just search for ‘patterns’ 
+                        in our elements tab, then add your favorites with one click. You can also add text, transitions, or animations if you’re 
+                        feeling extra creative. Share your Video with us, and you could win a Canva prize pack.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* BUTTON ONE */
+        <mj-section>
+            <mj-column width="90%">
+                <mj-button align="left">
+                    Create a Video
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* CHALLENGE LINKS */
+        <mj-section>
+            <mj-column width="98%" padding="20px 40px">
+                <mj-text>
+                    <a style="text-decoration: underline; font-size: 14px;">*Challenge Terms & Conditions</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* SUB HEADER ONE */
+        <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
+
+        <mj-section>
+            <mj-column padding="50px 0px 0px 0px">
+                <mj-text>
+                    <h2 style="font-size: 28px">How do I enter?</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* ORDERED LIST SECTION */
+    </mj-body>
+</mjml>

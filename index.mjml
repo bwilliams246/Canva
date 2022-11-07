@@ -14,8 +14,9 @@
             <mj-class name="nav-button" background-color="#fff" color="gray" font-size="14px" border="1px solid #333" href="#" target="_blank" align="right" />
             <mj-class name="parag-font" line-height="160%" font-size="14px" />
             <mj-class name="rounded-numbers" padding="10px" background-color="#EDF0F2" border-radius="50%" />
-            <mj-class name="" />
-            <mj-class name="" />
+            <mj-class name="footer-section" background-color="#EDF0F2" />
+            <mj-class name="footer-width" width="75%" align="center" />
+            <mj-class name="footer-font-color" color="#5B5559" />
         </mj-attributes>
 
         <mj-style>
@@ -165,7 +166,7 @@
             </mj-column>
         </mj-section>
 
-        /* SUB HEADER ONE */
+        /* SUB HEADER TWO */
         <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
 
         <mj-section>
@@ -174,6 +175,164 @@
                     <h2 style="font-size: 28px">Canva community design inspiration</h2>
                 </mj-text>
             </mj-column>
+        </mj-section>
+
+        /* TWO-COLUMN SECTION */
+        <mj-section>
+            <mj-column padding-bottom="26px">
+                <mj-text mj-class="parag-font">
+                    We loved your Zombie-themed Presentations in our last Canva Design Challenge. Here are some of our favorites:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-group width="95%">
+                <mj-column width="50%">
+                    <mj-image src="./images/col-img-one.png" alt="" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Lauren</h3>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-image src="./images/col-img-two.png" alt="" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">DESIGNED BY HOLLY</h3>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-image src="./images/col-img-three.png" alt="" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Devin</h3>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-image src="./images/col-img-four.png" alt="" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Sanjana</h3>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* TEXT AND BUTTON SECTION */
+        <mj-section>
+            <mj-column>
+                <mj-text mj-class="parag-font">
+                    We loved your Zombie-themed Presentations in our last Canva Design Challenge. Here are some of our favorites:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column width="90%" padding="26px 0px 16px 0px">
+                <mj-button align="left">
+                    Start editing
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER SECTION */
+        <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
+
+        <mj-section mj-class="footer-section">
+            <mj-column mj-class="footer-width" padding-bottom="36px">
+                <mj-text mj-class="footer-font-color" align="center">
+                    You are receiving this email because you signed up to Canva.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="footer-section"><mj-column width="100%" padding-top="1px" background-color="#C9CED4"></mj-column></mj-section>
+
+        <mj-section mj-class="footer-section" padding="26px 0px">
+            <mj-group width="72%" >
+                <mj-column width="23%">
+                    <mj-text mj-class="footer-font-color">
+                        Get Canva for: 
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="17%" padding-right="10px" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a>iPhone</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="15%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a>iPad</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="16%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a>Andoid</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="16%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a>Android</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="13%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a>Mac</a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section mj-class="footer-section"><mj-column width="100%" padding-top="1px" background-color="#C9CED4"></mj-column></mj-section>
+
+        <mj-section mj-class="footer-section" padding="26px 0px 16px 0px">
+            <mj-column width="80%">
+                <mj-text align="center" mj-class="parag-font footer-font-color">
+                    This advertisement is made for you with love 💜 from Canva <br>
+                    Canva Pty Ltd, 110 Kippax St, NSW 2010, Australia. ABN 80 159 929 938
+                    If you need assistance, get in touch with us via our 
+                    <a style="text-decoration: underline;">Help Center</a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="footer-section">
+            <mj-group width="45%">
+                <mj-column width="50%">
+                    <mj-text mj-class="parag-font footer-font-color" align="center">
+                        <a style="text-decoration: underline;">Visit canva.com</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-text mj-class="parag-font footer-font-color" align="center">
+                        <a style="text-decoration: underline;">Unsubscribe</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text mj-class="parag-font footer-font-color" align="center">
+                        <a style="text-decoration: underline;">Manage Email Preferences</a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section mj-class="footer-section" padding="20px 0px 70px 0px">
+            <mj-group width="50%">
+                <mj-column width="25%">
+                    <mj-image src="./images/facebook.png" alt="Facebook" title="Facebook" width="24px" height="24px" href="#" target="_blank" border="0" />
+                </mj-column>
+                <mj-column width="25%">
+                    <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" width="24px" height="24px" href="#" target="_blank" border="0" />
+                </mj-column>
+                <mj-column width="25%">
+                    <mj-image src="./images/pintrest.png" alt="Pinterest" title="Pinterest" width="24px" height="24px" href="#" target="_blank" border="0" />
+                </mj-column>
+                <mj-column width="25%">
+                    <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" width="24px" height="24px" href="#" target="_blank" border="0" />
+                </mj-column>
+            </mj-group>
         </mj-section>
     </mj-body>
 </mjml>

@@ -75,7 +75,7 @@
                 </mj-column>
 
                 <mj-column width="50%" css-class="mobile-two-columns" padding="30px 0px 0px 0px">
-                    <mj-button mj-class="nav-button">
+                    <mj-button mj-class="nav-button" href="https://www.canva.com/" target="_blank">
                         Design with Canva
                     </mj-button>
                 </mj-column>
@@ -94,7 +94,7 @@
         /* GIF */
         <mj-section>
             <mj-column width="100%">
-                <mj-image src="./images/kaleidoscope.gif" alt="GIF" title="GIF" width="600px" border="0" />
+                <mj-image src="./images/kaleidoscope.gif" alt="GIF" title="GIF" width="600px" href="https://www.canva.com/design/DAFRPlWi3Yg/4XiE8PIlBzQ0-_4u955Nbg/edit" target="_blank" border="0" />
             </mj-column>
         </mj-section>
 
@@ -114,7 +114,7 @@
         /* BUTTON ONE */
         <mj-section>
             <mj-column width="90%" css-class="mobile-width-90-per">
-                <mj-button align="left">
+                <mj-button align="left" href="https://www.canva.com/design/DAFRPnXdaec/U8qrEz-x2Y4oY-22YcDdUA/edit" target="_blank">
                     Create a Video
                 </mj-button>
             </mj-column>
@@ -189,7 +189,7 @@
         /* BUTTON TWO */
         <mj-section>
             <mj-column width="90%" padding="26px 0px 16px 0px" css-class="mobile-width-90-per">
-                <mj-button align="left">
+                <mj-button align="left" href="https://www.canva.com/design/DAFRPmDpNrs/pOfC-pQokn_uOnwrx8pSzg/edit" target="_blank">
                     Start editing
                 </mj-button>
             </mj-column>
@@ -198,7 +198,7 @@
         /* IMAGE SECTION TWO */
         <mj-section>
             <mj-column padding-bottom="26px">
-                <mj-image src="./images/canva-moon.png" alt="Photo Editing" title="Photo Editing" height="283px" border="0" />
+                <mj-image src="./images/canva-moon.png" alt="Photo Editing" title="Photo Editing" href="https://www.canva.com/design/DAFRPo6Hgyo/uMpUmcPWNPINkZlyfzMD-Q/edit" target="_blank" border="0" />
             </mj-column>
         </mj-section>
 
@@ -225,25 +225,25 @@
         <mj-section>
             <mj-group width="95%" css-class="mobile-width-95-per">
                 <mj-column width="50%" css-class="mobile-width-90-per">
-                    <mj-image src="./images/col-img-one.png" alt="" />
+                    <mj-image src="./images/col-img-one.png" alt="Lauren's Image" title="Lauren's Image" href="https://www.instagram.com/canva/" target="_blank" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Lauren</h3>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" css-class="mobile-width-90-per">
-                    <mj-image src="./images/col-img-two.png" alt="" />
+                    <mj-image src="./images/col-img-two.png" alt="" href="https://www.instagram.com/canva/" target="_blank" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">DESIGNED BY HOLLY</h3>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" css-class="mobile-width-90-per">
-                    <mj-image src="./images/col-img-three.png" alt="" />
+                    <mj-image src="./images/col-img-three.png" alt="" href="https://www.instagram.com/canva/" target="_blank" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Devin</h3>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" css-class="mobile-width-90-per">
-                    <mj-image src="./images/col-img-four.png" alt="" />
+                    <mj-image src="./images/col-img-four.png" alt="" href="https://www.instagram.com/canva/" target="_blank" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Sanjana</h3>
                     </mj-text>
@@ -262,7 +262,7 @@
 
         <mj-section>
             <mj-column width="90%" padding="26px 0px 16px 0px" css-class="mobile-width-90-per">
-                <mj-button align="left">
+                <mj-button align="left" href="https://www.canva.com/design/DAFRPrEgkww/Fk46guMdC2cctpqEoTdCHw/edit" target="_blank">
                     Start editing
                 </mj-button>
             </mj-column>
@@ -291,31 +291,31 @@
 
                 <mj-column width="17%" padding-right="10px" border-left="1px solid gray">
                     <mj-text align="center" mj-class="footer-font-color">
-                        <a>iPhone</a>
+                        <a href="https://www.canva.com/" target="_blank">iPhone</a>
                     </mj-text>
                 </mj-column>
 
                 <mj-column width="15%" border-left="1px solid gray">
                     <mj-text align="center" mj-class="footer-font-color">
-                        <a>iPad</a>
+                        <a href="https://www.canva.com/" target="_blank">iPad</a>
                     </mj-text>
                 </mj-column>
 
                 <mj-column width="16%" border-left="1px solid gray">
                     <mj-text align="center" mj-class="footer-font-color">
-                        <a>Andoid</a>
+                        <a href="https://www.canva.com/" target="_blank">Andoid</a>
                     </mj-text>
                 </mj-column>
 
                 <mj-column width="16%" border-left="1px solid gray">
                     <mj-text align="center" mj-class="footer-font-color">
-                        <a>Android</a>
+                        <a href="https://www.canva.com/" target="_blank">Android</a>
                     </mj-text>
                 </mj-column>
 
                 <mj-column width="13%" border-left="1px solid gray">
                     <mj-text align="center" mj-class="footer-font-color">
-                        <a>Mac</a>
+                        <a href="https://www.canva.com/" target="_blank">Mac</a>
                     </mj-text>
                 </mj-column>
             </mj-group>
@@ -338,7 +338,7 @@
             <mj-group width="45%" css-class="mobile-width-85-per">
                 <mj-column width="50%" css-class="mobile-two-columns">
                     <mj-text mj-class="parag-font footer-font-color" align="center">
-                        <a style="text-decoration: underline;">Visit canva.com</a>
+                        <a href="https://www.canva.com/" target="_blank" style="text-decoration: underline;">Visit canva.com</a>
                     </mj-text>
                 </mj-column>
                 <mj-column width="50%" css-class="mobile-two-columns">
@@ -348,7 +348,7 @@
                 </mj-column>
                 <mj-column width="100%">
                     <mj-text mj-class="parag-font footer-font-color" align="center">
-                        <a style="text-decoration: underline;">Manage Email Preferences</a>
+                        <a target="_blank" href="https://www.canva.com/settings/email-preferences" style="text-decoration: underline;">Manage Email Preferences</a>
                     </mj-text>
                 </mj-column>
             </mj-group>
@@ -357,16 +357,16 @@
         <mj-section mj-class="footer-section" padding="20px 0px 70px 0px">
             <mj-group width="50%" css-class="mobile-two-columns">
                 <mj-column width="25%" css-class="mobile-width-25-per">
-                    <mj-image src="./images/facebook.png" alt="Facebook" title="Facebook" width="24px" height="24px" href="#" target="_blank" border="0" />
+                    <mj-image src="./images/facebook.png" alt="Facebook" title="Facebook" width="24px" height="24px" href="https://www.facebook.com/canva" target="_blank" border="0" />
                 </mj-column>
                 <mj-column width="25%" css-class="mobile-width-25-per">
-                    <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" width="24px" height="24px" href="#" target="_blank" border="0" />
+                    <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" width="24px" height="24px" href="https://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=canva" target="_blank" border="0" />
                 </mj-column>
                 <mj-column width="25%" css-class="mobile-width-25-per">
-                    <mj-image src="./images/pintrest.png" alt="Pinterest" title="Pinterest" width="24px" height="24px" href="#" target="_blank" border="0" />
+                    <mj-image src="./images/pintrest.png" alt="Pinterest" title="Pinterest" width="24px" height="24px" href="https://www.pinterest.com/canva/" target="_blank" border="0" />
                 </mj-column>
                 <mj-column width="25%" css-class="mobile-width-25-per">
-                    <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" width="24px" height="24px" href="#" target="_blank" border="0" />
+                    <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" width="24px" height="24px" href="https://www.instagram.com/canva/" target="_blank" border="0" />
                 </mj-column>
             </mj-group>
         </mj-section>

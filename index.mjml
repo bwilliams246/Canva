@@ -7,7 +7,7 @@
             <mj-section background-color="#fff" padding="0px"></mj-section>
             <mj-column width="85%" padding="0px" ></mj-column>
             <mj-group width="85%"></mj-group>
-            <mj-text padding="0px" color="#0E1318" font-size="14px"></mj-text>
+            <mj-text padding="0px" color="#0E1318" font-size="14px" css-class="mobile-font"></mj-text>
             <mj-button background-color="#7D2AE8" padding="9px 14px"></mj-button>
 
             /* MJML CLASS STYLES */
@@ -23,6 +23,42 @@
             @media screen and (max-width: 479.98px) {
                 .mobile-two-columns {
                     width: 50% !important;
+                }
+
+                .mobile-width-25-per {
+                    width: 25% !important;
+                }
+
+                .mobile-width-45-per {
+                    width: 45% !important;
+                }
+
+                .mobile-width-80-per {
+                    width: 80% !important;
+                }
+
+                .mobile-width-85-per {
+                    width: 85% !important;
+                }
+
+                .mobile-width-90-per {
+                    width: 90% !important;
+                }
+
+                .mobile-width-95-per {
+                    width: 90% !important;
+                }
+
+                .mobile-width-32-px {
+                    width: 32px !important;
+                }
+
+                .mobile-font {
+                    font-size: 12px !important;
+                }
+
+                .hide {
+                    display: none !important;
                 }
             }
         </mj-style>
@@ -48,7 +84,7 @@
 
         /* HEADER */
         <mj-section>
-           <mj-column padding="30px 0px">
+           <mj-column padding="30px 0px" css-class="mobile-width-85-per">
                 <mj-text>
                     <h1 style="font-size: 32px; line-height: 130%;">This week's #CanvaDesignChallenge: Video with Patterns</h1>
                 </mj-text>
@@ -58,13 +94,13 @@
         /* GIF */
         <mj-section>
             <mj-column width="100%">
-                <mj-image src="./images/kaleidoscope.gif" alt="GIF" title="GIF" width="600px" height="450px" border="0" />
+                <mj-image src="./images/kaleidoscope.gif" alt="GIF" title="GIF" width="600px" border="0" />
             </mj-column>
         </mj-section>
 
         /* PARAGRAPH */
         <mj-section>
-            <mj-column padding="36px 0px 26px 0px">
+            <mj-column padding="36px 0px 26px 0px" css-class="mobile-width-85-per">
                 <mj-text mj-class="parag-font">
                     	With Canva, creating Videos is as easy as making any other design. Not sure where to start? Give this week’s 
                         <span style="font-weight: bold;">#CanvaDesignChallenge</span> a go. The theme is Patterns so create a short Video 
@@ -77,7 +113,7 @@
 
         /* BUTTON ONE */
         <mj-section>
-            <mj-column width="90%">
+            <mj-column width="90%" css-class="mobile-width-90-per">
                 <mj-button align="left">
                     Create a Video
                 </mj-button>
@@ -97,7 +133,7 @@
         <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
 
         <mj-section>
-            <mj-column padding="50px 0px 0px 0px">
+            <mj-column padding="50px 0px 0px 0px" css-class="mobile-width-85-per">
                 <mj-text>
                     <h2 style="font-size: 28px">How do I enter?</h2>
                 </mj-text>
@@ -106,13 +142,13 @@
 
         /* ORDERED LIST SECTION */
         <mj-section>
-            <mj-group>
-                <mj-column width="32px" mj-class="rounded-numbers">
+            <mj-group css-class="mobile-width-85-per">
+                <mj-column width="32px" mj-class="rounded-numbers" css-class="mobile-width-32-px">
                     <mj-text align="center">
                         1
                     </mj-text>
                 </mj-column>
-                <mj-column width="90%" padding="10px 0px 0px 10px">
+                <mj-column width="90%" padding="10px 0px 0px 10px" css-class="mobile-width-90-per">
                     <mj-text>
                         Create a Video using Patterns with Canva templates and elements
                     </mj-text>
@@ -121,13 +157,13 @@
         </mj-section>
         
         <mj-section padding-top="15px">
-            <mj-group>
-                <mj-column width="32px" mj-class="rounded-numbers">
+            <mj-group css-class="mobile-width-85-per">
+                <mj-column width="32px" mj-class="rounded-numbers" css-class="mobile-width-32-px">
                     <mj-text align="center">
                         2
                     </mj-text>
                 </mj-column>
-                <mj-column width="90%" padding="0px 0px 0px 10px">
+                <mj-column width="90%" padding="0px 0px 0px 10px" css-class="mobile-width-90-per">
                     <mj-text mj-class="parag-font">
                         Share your design on Instagram or Twitter and tag #CanvaDesignChallenge (we can only view public accounts)
                     </mj-text>
@@ -136,13 +172,13 @@
         </mj-section>
 
         <mj-section padding-top="15px">
-            <mj-group>
-                <mj-column width="32px" mj-class="rounded-numbers">
+            <mj-group css-class="mobile-width-85-per">
+                <mj-column width="32px" mj-class="rounded-numbers" css-class="mobile-width-32-px">
                     <mj-text align="center">
                         3
                     </mj-text>
                 </mj-column>
-                <mj-column width="90%" padding="10px 0px 0px 10px">
+                <mj-column width="90%" padding="10px 0px 0px 10px" css-class="mobile-width-90-per">
                     <mj-text>
                         We’ll showcase our favorite designs to the Canva community
                     </mj-text>
@@ -152,7 +188,7 @@
 
         /* BUTTON TWO */
         <mj-section>
-            <mj-column width="90%" padding="26px 0px 16px 0px">
+            <mj-column width="90%" padding="26px 0px 16px 0px" css-class="mobile-width-90-per">
                 <mj-button align="left">
                     Start editing
                 </mj-button>
@@ -170,7 +206,7 @@
         <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
 
         <mj-section>
-            <mj-column padding="50px 0px 0px 0px">
+            <mj-column padding="50px 0px 0px 0px" css-class="mobile-width-85-per">
                 <mj-text>
                     <h2 style="font-size: 28px">Canva community design inspiration</h2>
                 </mj-text>
@@ -179,7 +215,7 @@
 
         /* TWO-COLUMN SECTION */
         <mj-section>
-            <mj-column padding-bottom="26px">
+            <mj-column padding-bottom="26px" css-class="mobile-width-85-per">
                 <mj-text mj-class="parag-font">
                     We loved your Zombie-themed Presentations in our last Canva Design Challenge. Here are some of our favorites:
                 </mj-text>
@@ -187,26 +223,26 @@
         </mj-section>
 
         <mj-section>
-            <mj-group width="95%">
-                <mj-column width="50%">
+            <mj-group width="95%" css-class="mobile-width-95-per">
+                <mj-column width="50%" css-class="mobile-width-90-per">
                     <mj-image src="./images/col-img-one.png" alt="" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Lauren</h3>
                     </mj-text>
                 </mj-column>
-                <mj-column width="50%">
+                <mj-column width="50%" css-class="mobile-width-90-per">
                     <mj-image src="./images/col-img-two.png" alt="" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">DESIGNED BY HOLLY</h3>
                     </mj-text>
                 </mj-column>
-                <mj-column width="50%">
+                <mj-column width="50%" css-class="mobile-width-90-per">
                     <mj-image src="./images/col-img-three.png" alt="" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Devin</h3>
                     </mj-text>
                 </mj-column>
-                <mj-column width="50%">
+                <mj-column width="50%" css-class="mobile-width-90-per">
                     <mj-image src="./images/col-img-four.png" alt="" />
                     <mj-text padding="10px 0px">
                         <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Sanjana</h3>
@@ -217,7 +253,7 @@
 
         /* TEXT AND BUTTON SECTION */
         <mj-section>
-            <mj-column>
+            <mj-column css-class="mobile-width-85-per">
                 <mj-text mj-class="parag-font">
                     We loved your Zombie-themed Presentations in our last Canva Design Challenge. Here are some of our favorites:
                 </mj-text>
@@ -225,7 +261,7 @@
         </mj-section>
 
         <mj-section>
-            <mj-column width="90%" padding="26px 0px 16px 0px">
+            <mj-column width="90%" padding="26px 0px 16px 0px" css-class="mobile-width-90-per">
                 <mj-button align="left">
                     Start editing
                 </mj-button>
@@ -236,7 +272,7 @@
         <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
 
         <mj-section mj-class="footer-section">
-            <mj-column mj-class="footer-width" padding-bottom="36px">
+            <mj-column mj-class="footer-width" padding-bottom="36px" css-class="mobile-width-85-per">
                 <mj-text mj-class="footer-font-color" align="center">
                     You are receiving this email because you signed up to Canva.
                 </mj-text>
@@ -246,7 +282,7 @@
         <mj-section mj-class="footer-section"><mj-column width="100%" padding-top="1px" background-color="#C9CED4"></mj-column></mj-section>
 
         <mj-section mj-class="footer-section" padding="26px 0px">
-            <mj-group width="72%" >
+            <mj-group width="72%" css-class="hide">
                 <mj-column width="23%">
                     <mj-text mj-class="footer-font-color">
                         Get Canva for: 
@@ -288,7 +324,7 @@
         <mj-section mj-class="footer-section"><mj-column width="100%" padding-top="1px" background-color="#C9CED4"></mj-column></mj-section>
 
         <mj-section mj-class="footer-section" padding="26px 0px 16px 0px">
-            <mj-column width="80%">
+            <mj-column width="80%" css-class="mobile-width-80-per">
                 <mj-text align="center" mj-class="parag-font footer-font-color">
                     This advertisement is made for you with love 💜 from Canva <br>
                     Canva Pty Ltd, 110 Kippax St, NSW 2010, Australia. ABN 80 159 929 938
@@ -299,13 +335,13 @@
         </mj-section>
 
         <mj-section mj-class="footer-section">
-            <mj-group width="45%">
-                <mj-column width="50%">
+            <mj-group width="45%" css-class="mobile-width-85-per">
+                <mj-column width="50%" css-class="mobile-two-columns">
                     <mj-text mj-class="parag-font footer-font-color" align="center">
                         <a style="text-decoration: underline;">Visit canva.com</a>
                     </mj-text>
                 </mj-column>
-                <mj-column width="50%">
+                <mj-column width="50%" css-class="mobile-two-columns">
                     <mj-text mj-class="parag-font footer-font-color" align="center">
                         <a style="text-decoration: underline;">Unsubscribe</a>
                     </mj-text>
@@ -319,17 +355,17 @@
         </mj-section>
 
         <mj-section mj-class="footer-section" padding="20px 0px 70px 0px">
-            <mj-group width="50%">
-                <mj-column width="25%">
+            <mj-group width="50%" css-class="mobile-two-columns">
+                <mj-column width="25%" css-class="mobile-width-25-per">
                     <mj-image src="./images/facebook.png" alt="Facebook" title="Facebook" width="24px" height="24px" href="#" target="_blank" border="0" />
                 </mj-column>
-                <mj-column width="25%">
+                <mj-column width="25%" css-class="mobile-width-25-per">
                     <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" width="24px" height="24px" href="#" target="_blank" border="0" />
                 </mj-column>
-                <mj-column width="25%">
+                <mj-column width="25%" css-class="mobile-width-25-per">
                     <mj-image src="./images/pintrest.png" alt="Pinterest" title="Pinterest" width="24px" height="24px" href="#" target="_blank" border="0" />
                 </mj-column>
-                <mj-column width="25%">
+                <mj-column width="25%" css-class="mobile-width-25-per">
                     <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" width="24px" height="24px" href="#" target="_blank" border="0" />
                 </mj-column>
             </mj-group>
